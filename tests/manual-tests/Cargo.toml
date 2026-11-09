@@ -1,0 +1,15 @@
+[package]
+name = "manual-tests"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+
+[dependencies]
+allocator-trace.workspace = true
+fake-device.workspace = true
+fake-kernel.workspace = true
+dmabuf-allocator-impl.workspace = true
+error_reporter.workspace = true
+
+[dev-dependencies]
+libc = { workspace = true, features = ["std"] }

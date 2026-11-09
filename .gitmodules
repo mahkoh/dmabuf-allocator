@@ -1,0 +1,8 @@
+[submodule "mesa/mesa"]
+	path = mesa/mesa
+	url = https://gitlab.freedesktop.org/mesa/mesa.git
+	shallow = true
+[submodule "tests/generated-tests/vectors"]
+	path = tests/generated-tests/vectors
+	url = https://github.com/mahkoh/dmabuf-allocator-vectors.git
+	shallow = true

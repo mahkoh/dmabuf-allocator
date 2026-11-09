@@ -1,0 +1,11 @@
+[package]
+name = "fake-device"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+
+[dependencies]
+allocator-trace.workspace = true
+fake-kernel.workspace = true
+dmabuf-allocator-impl.workspace = true
+libc = { workspace = true, features = ["std"] }

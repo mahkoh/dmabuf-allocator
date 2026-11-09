@@ -1,0 +1,58 @@
+name: Mesa update
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  mesa-update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    defaults:
+      run:
+        shell: bash
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      LABEL: mesa-update
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          pinned=$(git ls-tree HEAD mesa/mesa | awk '{print $3}')
+          mesa="$RUNNER_TEMP/mesa.git"
+          git clone -q --bare --filter=tree:0 https://gitlab.freedesktop.org/mesa/mesa.git "$mesa"
+          latest=$(git --git-dir "$mesa" tag -l 'mesa-*' | grep -E '^mesa-[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | tail -n 1)
+          current=$(git --git-dir "$mesa" describe --tags --abbrev=0 --match 'mesa-[0-9]*.[0-9]*.[0-9]*' --exclude '*-rc*' "$pinned")
+          if [ "$latest" = "$current" ]; then
+              exit 0
+          fi
+          title="Update Mesa to $latest"
+          gh label create "$LABEL" --force
+          count=$(gh issue list --state all --label "$LABEL" --search "in:title \"$latest\"" --json title --jq "map(select(.title == \"$title\")) | length")
+          if [ "$count" = 0 ]; then
+              sed "s|{{tag}}|$latest|g" .github/mesa-update-issue.md | gh issue create --title "$title" --label "$LABEL" --body-file -
+          fi
+
+  report-failure:
+    needs: mesa-update
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      LABEL: mesa-update-failure
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - run: |
+          gh label create "$LABEL" --force
+          issue=$(gh issue list --state open --label "$LABEL" --json number --jq '.[0].number // empty')
+          if [ -n "$issue" ]; then
+              gh issue comment "$issue" --body "$RUN_URL"
+          else
+              gh issue create --title "Mesa update failed" --label "$LABEL" --body "$RUN_URL"
+          fi

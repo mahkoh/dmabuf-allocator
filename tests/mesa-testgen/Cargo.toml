@@ -1,0 +1,15 @@
+[package]
+name = "mesa-testgen"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+
+[dependencies]
+allocator-trace.workspace = true
+fake-kernel.workspace = true
+fake-supervisor.workspace = true
+dmabuf-allocator-impl.workspace = true
+vulkan-testgen.workspace = true
+clap.workspace = true
+libc = { workspace = true, features = ["std"] }
+rayon.workspace = true

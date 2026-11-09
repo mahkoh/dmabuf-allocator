@@ -1,0 +1,6 @@
+ANV_LIBRARY=src/intel/vulkan/libvulkan_intel.so
+RADV_LIBRARY=src/amd/vulkan/libvulkan_radeon.so
+NVK_LIBRARY=src/nouveau/vulkan/libvulkan_nouveau.so
+GBM_VK_DRIVER_FILES=src/nouveau/vulkan/nouveau_devenv_icd.$ARCH.json
+GBM_LIBRARY=src/gbm/libgbm.so.1.0.0
+GBM_BACKEND_LIBRARY=src/gbm/backends/dri/dri_gbm.so

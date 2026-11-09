@@ -1,0 +1,24 @@
+#![allow(non_camel_case_types, non_snake_case, non_upper_case_globals)]
+
+pub mod amdgpu;
+pub mod asahi;
+pub mod drm;
+pub mod drm_fourcc;
+pub mod etnaviv;
+pub mod i915;
+pub mod ioctl;
+pub mod lima;
+pub mod msm;
+pub mod nouveau;
+pub mod nvctrl;
+pub mod nvidia_drm;
+pub mod panfrost;
+pub mod panthor;
+pub mod udmabuf;
+pub mod v3d;
+pub mod vc4;
+pub mod vdrm;
+pub mod venus;
+pub mod virgl;
+pub mod virtgpu;
+pub mod xe;

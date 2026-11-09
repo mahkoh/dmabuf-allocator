@@ -1,0 +1,16 @@
+[package]
+name = "wayland-test"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+
+[dependencies]
+ash.workspace = true
+dmabuf-allocator.workspace = true
+error_reporter.workspace = true
+libc = { workspace = true, features = ["std"] }
+wl-client.workspace = true
+
+[build-dependencies]
+codegen.workspace = true
+wl-client-builder.workspace = true

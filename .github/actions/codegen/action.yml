@@ -1,0 +1,30 @@
+name: Codegen
+description: Builds the generated Mesa headers and runs the code generators
+
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
+    - shell: bash
+      run: git submodule update --init --depth 1 -- ./mesa/mesa
+    - shell: bash
+      run: |
+        rustup toolchain install stable nightly --profile minimal --component rustfmt
+        rustup default stable
+    - shell: bash
+      run: |
+        curl -sSfo /tmp/PKGBUILD https://gitlab.archlinux.org/archlinux/packaging/packages/mesa/-/raw/main/PKGBUILD
+        source /tmp/PKGBUILD
+        pacman -S --noconfirm $(pacman -T "${makedepends[@]}")
+    - shell: bash
+      run: >
+        mesa/build-mesa.sh
+        src/intel/dev/intel_wa.h
+        src/intel/dev/intel_device_info_gen.h
+        src/intel/genxml/genX_bits.h
+        src/util/format/u_format_gen.h
+    - shell: bash
+      run: cargo run -p codegen --bin formats
+    - shell: bash
+      run: cargo run -p codegen --bin intel_devices

@@ -1,0 +1,1725 @@
+[[format]]
+fourcc = "C1  "
+planes = [
+    { block_width = 8, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "C2  "
+planes = [
+    { block_width = 4, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "C4  "
+planes = [
+    { block_width = 2, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "C8  "
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "D1  "
+planes = [
+    { block_width = 8, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "D2  "
+planes = [
+    { block_width = 4, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "D4  "
+planes = [
+    { block_width = 2, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "D8  "
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "R1  "
+planes = [
+    { block_width = 8, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "R2  "
+planes = [
+    { block_width = 4, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "R4  "
+planes = [
+    { block_width = 2, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "R8  "
+vulkan = "VK_FORMAT_R8_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 1, number_type = 0 }
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+vc4 = true
+virgl = 64
+panfrost = { afbc = "R8", afbc_min_arch = 5 }
+etnaviv = { render = ["Halti5"], sample = ["Halti0"] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "R10 "
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "R12 "
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "R16 "
+vulkan = "VK_FORMAT_R16_UNORM"
+amd = true
+amd_implicit = true
+amd_gfx12 = { data_format = 2, number_type = 0 }
+amd_gfx6 = { data_format = 2, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 48
+panfrost = { afbc = "R16", afbc_min_arch = 10 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "RG88"
+channels = ["GR"]
+vulkan = "VK_FORMAT_R8G8_UNORM"
+amd = true
+amd_gfx12 = { data_format = 3, number_type = 0 }
+amd_gfx6 = { data_format = 3, num_format = 0, dst_sel = [5, 4, 0, 1], alpha_is_on_msb = false }
+nouveau = true
+dumb = true
+virgl = 263
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "GR88"
+vulkan = "VK_FORMAT_R8G8_UNORM"
+amd = true
+amd_implicit = true
+amd_gfx12 = { data_format = 3, number_type = 0 }
+amd_gfx6 = { data_format = 3, num_format = 0, dst_sel = [4, 5, 0, 1], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+vc4 = true
+virgl = 65
+panfrost = { afbc = "R8G8", afbc_min_arch = 5 }
+etnaviv = { render = ["Halti2"], sample = ["Halti0"] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "RG32"
+channels = ["GR"]
+vulkan = "VK_FORMAT_R16G16_UNORM"
+amd = true
+amd_gfx12 = { data_format = 5, number_type = 0 }
+amd_gfx6 = { data_format = 5, num_format = 0, dst_sel = [5, 4, 0, 1], alpha_is_on_msb = false }
+nouveau = true
+dumb = true
+virgl = 265
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "GR32"
+vulkan = "VK_FORMAT_R16G16_UNORM"
+amd = true
+amd_implicit = true
+amd_gfx12 = { data_format = 5, number_type = 0 }
+amd_gfx6 = { data_format = 5, num_format = 0, dst_sel = [4, 5, 0, 1], alpha_is_on_msb = true }
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 49
+panfrost = { afbc = "R16G16", afbc_min_arch = 10 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "RGB8"
+dumb = true
+virgl = 139
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "BGR8"
+dumb = true
+virgl = 318
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "XR12"
+vulkan = "VK_FORMAT_A4R4G4B4_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 19, number_type = 0 }
+amd_gfx6 = { data_format = 19, num_format = 0, dst_sel = [6, 5, 4, 1], alpha_is_on_msb = true }
+dumb = true
+virgl = 135
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "XB12"
+vulkan = "VK_FORMAT_A4B4G4R4_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 19, number_type = 0 }
+amd_gfx6 = { data_format = 19, num_format = 0, dst_sel = [4, 5, 6, 1], alpha_is_on_msb = true }
+dumb = true
+virgl = 407
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "RX12"
+vulkan = "VK_FORMAT_R4G4B4A4_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 19, number_type = 0 }
+amd_gfx6 = { data_format = 19, num_format = 0, dst_sel = [7, 6, 5, 1], alpha_is_on_msb = false }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "BX12"
+vulkan = "VK_FORMAT_B4G4R4A4_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 19, number_type = 0 }
+amd_gfx6 = { data_format = 19, num_format = 0, dst_sel = [5, 6, 7, 1], alpha_is_on_msb = false }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "AR12"
+vulkan = "VK_FORMAT_A4R4G4B4_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 19, number_type = 0 }
+amd_gfx6 = { data_format = 19, num_format = 0, dst_sel = [6, 5, 4, 7], alpha_is_on_msb = true }
+dumb = true
+virgl = 6
+panfrost = {}
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "AB12"
+vulkan = "VK_FORMAT_A4B4G4R4_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 19, number_type = 0 }
+amd_gfx6 = { data_format = 19, num_format = 0, dst_sel = [4, 5, 6, 7], alpha_is_on_msb = true }
+dumb = true
+virgl = 319
+panfrost = {}
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "RA12"
+vulkan = "VK_FORMAT_R4G4B4A4_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 19, number_type = 0 }
+amd_gfx6 = { data_format = 19, num_format = 0, dst_sel = [7, 6, 5, 4], alpha_is_on_msb = false }
+dumb = true
+v3d = true
+virgl = 311
+panfrost = {}
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "BA12"
+vulkan = "VK_FORMAT_B4G4R4A4_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 19, number_type = 0 }
+amd_gfx6 = { data_format = 19, num_format = 0, dst_sel = [5, 6, 7, 4], alpha_is_on_msb = false }
+dumb = true
+virgl = 340
+panfrost = {}
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "XR15"
+vulkan = "VK_FORMAT_A1R5G5B5_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 17, number_type = 0 }
+amd_gfx6 = { data_format = 17, num_format = 0, dst_sel = [6, 5, 4, 1], alpha_is_on_msb = true }
+nouveau = true
+dumb = true
+virgl = 122
+panfrost = { afbc = "R5G5B5A1", afbc_min_arch = 5 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "XB15"
+vulkan = "VK_FORMAT_A1B5G5R5_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 17, number_type = 0 }
+amd_gfx6 = { data_format = 17, num_format = 0, dst_sel = [4, 5, 6, 1], alpha_is_on_msb = true }
+dumb = true
+virgl = 409
+panfrost = { afbc = "R5G5B5A1", afbc_min_arch = 5 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "RX15"
+vulkan = "VK_FORMAT_R5G5B5A1_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 18, number_type = 0 }
+amd_gfx6 = { data_format = 18, num_format = 0, dst_sel = [7, 6, 5, 1], alpha_is_on_msb = false }
+dumb = true
+v3d = true
+virgl = 427
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "BX15"
+vulkan = "VK_FORMAT_B5G5R5A1_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 18, number_type = 0 }
+amd_gfx6 = { data_format = 18, num_format = 0, dst_sel = [5, 6, 7, 1], alpha_is_on_msb = false }
+dumb = true
+virgl = 428
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "AR15"
+vulkan = "VK_FORMAT_A1R5G5B5_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 17, number_type = 0 }
+amd_gfx6 = { data_format = 17, num_format = 0, dst_sel = [6, 5, 4, 7], alpha_is_on_msb = true }
+nouveau = true
+dumb = true
+asahi = true
+lima = true
+virgl = 5
+panfrost = { afbc = "R5G5B5A1", afbc_min_arch = 5 }
+etnaviv = { render = [], sample = [] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "AB15"
+vulkan = "VK_FORMAT_A1B5G5R5_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 17, number_type = 0 }
+amd_gfx6 = { data_format = 17, num_format = 0, dst_sel = [4, 5, 6, 7], alpha_is_on_msb = true }
+dumb = true
+virgl = 320
+panfrost = { afbc = "R5G5B5A1", afbc_min_arch = 5 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "RA15"
+vulkan = "VK_FORMAT_R5G5B5A1_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 18, number_type = 0 }
+amd_gfx6 = { data_format = 18, num_format = 0, dst_sel = [7, 6, 5, 4], alpha_is_on_msb = false }
+dumb = true
+v3d = true
+virgl = 331
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "BA15"
+vulkan = "VK_FORMAT_B5G5R5A1_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 18, number_type = 0 }
+amd_gfx6 = { data_format = 18, num_format = 0, dst_sel = [5, 6, 7, 4], alpha_is_on_msb = false }
+dumb = true
+virgl = 333
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "RG16"
+vulkan = "VK_FORMAT_R5G6B5_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 16, number_type = 0 }
+amd_gfx6 = { data_format = 16, num_format = 0, dst_sel = [6, 5, 4, 1], alpha_is_on_msb = false }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+vc4 = true
+virgl = 7
+panfrost = { afbc = "R5G6B5", afbc_min_arch = 5 }
+etnaviv = { render = [], sample = [] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "BG16"
+vulkan = "VK_FORMAT_B5G6R5_UNORM_PACK16"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 16, number_type = 0 }
+amd_gfx6 = { data_format = 16, num_format = 0, dst_sel = [4, 5, 6, 1], alpha_is_on_msb = true }
+nvidia = true
+dumb = true
+virgl = 321
+panfrost = { afbc = "R5G6B5", afbc_min_arch = 5 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "RG24"
+vulkan = "VK_FORMAT_B8G8R8_UNORM"
+virgl = 317
+panfrost = { afbc = "R8G8B8", afbc_min_arch = 5 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 24 },
+]
+
+[[format]]
+fourcc = "BG24"
+vulkan = "VK_FORMAT_R8G8B8_UNORM"
+virgl = 66
+panfrost = { afbc = "R8G8B8", afbc_min_arch = 5 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 24 },
+]
+
+[[format]]
+fourcc = "XR24"
+vulkan = "VK_FORMAT_B8G8R8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [6, 5, 4, 1], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+vc4 = true
+virgl = 2
+panfrost = { afbc = "R8G8B8A8", afbc_min_arch = 5 }
+etnaviv = { render = [], sample = [] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "XB24"
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [4, 5, 6, 1], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+vc4 = true
+virgl = 134
+panfrost = { afbc = "R8G8B8A8", afbc_min_arch = 5 }
+etnaviv = { render = [], sample = [] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "RX24"
+channels = ["XBGR"]
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [7, 6, 5, 1], alpha_is_on_msb = false }
+nouveau = true
+dumb = true
+asahi = true
+virgl = 68
+panfrost = { afbc = "R8G8B8A8", afbc_min_arch = 5, afbc_no_v7 = true }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "BX24"
+channels = ["XRGB"]
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [5, 6, 7, 1], alpha_is_on_msb = false }
+nouveau = true
+dumb = true
+asahi = true
+virgl = 4
+panfrost = { afbc = "R8G8B8A8", afbc_min_arch = 5, afbc_no_v7 = true }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "AR24"
+vulkan = "VK_FORMAT_B8G8R8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [6, 5, 4, 7], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+vc4 = true
+virgl = 1
+panfrost = { afbc = "R8G8B8A8", afbc_min_arch = 5 }
+etnaviv = { render = [], sample = [] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "AB24"
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [4, 5, 6, 7], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+vc4 = true
+virgl = 67
+panfrost = { afbc = "R8G8B8A8", afbc_min_arch = 5 }
+etnaviv = { render = [], sample = [] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "RA24"
+channels = ["ABGR"]
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [7, 6, 5, 4], alpha_is_on_msb = false }
+nouveau = true
+dumb = true
+asahi = true
+virgl = 121
+panfrost = { afbc = "R8G8B8A8", afbc_min_arch = 5, afbc_no_v7 = true }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "BA24"
+channels = ["ARGB"]
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [5, 6, 7, 4], alpha_is_on_msb = false }
+nouveau = true
+dumb = true
+asahi = true
+virgl = 3
+panfrost = { afbc = "R8G8B8A8", afbc_min_arch = 5, afbc_no_v7 = true }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "XR30"
+vulkan = "VK_FORMAT_A2R10G10B10_UNORM_PACK32"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 9, number_type = 0 }
+amd_gfx6 = { data_format = 9, num_format = 0, dst_sel = [6, 5, 4, 1], alpha_is_on_msb = true }
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 233
+panfrost = { afbc = "R10G10B10A2", afbc_min_arch = 5 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "XB30"
+vulkan = "VK_FORMAT_A2B10G10R10_UNORM_PACK32"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 9, number_type = 0 }
+amd_gfx6 = { data_format = 9, num_format = 0, dst_sel = [4, 5, 6, 1], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 308
+panfrost = { afbc = "R10G10B10A2", afbc_min_arch = 5 }
+etnaviv = { render = ["Halti0"], sample = ["Halti0"] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "RX30"
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "BX30"
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "AR30"
+vulkan = "VK_FORMAT_A2R10G10B10_UNORM_PACK32"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 9, number_type = 0 }
+amd_gfx6 = { data_format = 9, num_format = 0, dst_sel = [6, 5, 4, 7], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 131
+panfrost = { afbc = "R10G10B10A2", afbc_min_arch = 5 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "AB30"
+vulkan = "VK_FORMAT_A2B10G10R10_UNORM_PACK32"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 9, number_type = 0 }
+amd_gfx6 = { data_format = 9, num_format = 0, dst_sel = [4, 5, 6, 7], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 8
+panfrost = { afbc = "R10G10B10A2", afbc_min_arch = 5 }
+etnaviv = { render = ["Halti0"], sample = ["Halti0"] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "RA30"
+nvidia = true
+dumb = true
+virgl = 335
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "BA30"
+nvidia = true
+dumb = true
+virgl = 337
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "RG48"
+channels = ["BGR"]
+vulkan = "VK_FORMAT_R16G16B16_UNORM"
+planes = [
+    { block_width = 1, block_height = 1, bits = 48 },
+]
+
+[[format]]
+fourcc = "BG48"
+vulkan = "VK_FORMAT_R16G16B16_UNORM"
+virgl = 50
+planes = [
+    { block_width = 1, block_height = 1, bits = 48 },
+]
+
+[[format]]
+fourcc = "XR48"
+channels = ["BGRX"]
+vulkan = "VK_FORMAT_R16G16B16A16_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 12, number_type = 0 }
+amd_gfx6 = { data_format = 12, num_format = 0, dst_sel = [6, 5, 4, 1], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "XB48"
+vulkan = "VK_FORMAT_R16G16B16A16_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 12, number_type = 0 }
+amd_gfx6 = { data_format = 12, num_format = 0, dst_sel = [4, 5, 6, 1], alpha_is_on_msb = true }
+nouveau = true
+dumb = true
+virgl = 234
+panfrost = { afbc = "R16G16B16A16", afbc_min_arch = 10 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "AR48"
+channels = ["BGRA"]
+vulkan = "VK_FORMAT_R16G16B16A16_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 12, number_type = 0 }
+amd_gfx6 = { data_format = 12, num_format = 0, dst_sel = [6, 5, 4, 7], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "AB48"
+vulkan = "VK_FORMAT_R16G16B16A16_UNORM"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 12, number_type = 0 }
+amd_gfx6 = { data_format = 12, num_format = 0, dst_sel = [4, 5, 6, 7], alpha_is_on_msb = true }
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 51
+panfrost = { afbc = "R16G16B16A16", afbc_min_arch = 10 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "AB10"
+vulkan = "VK_FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16"
+dumb = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "XR4H"
+channels = ["BGRX"]
+vulkan = "VK_FORMAT_R16G16B16A16_SFLOAT"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 12, number_type = 7 }
+amd_gfx6 = { data_format = 12, num_format = 7, dst_sel = [6, 5, 4, 1], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "XB4H"
+vulkan = "VK_FORMAT_R16G16B16A16_SFLOAT"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 12, number_type = 7 }
+amd_gfx6 = { data_format = 12, num_format = 7, dst_sel = [4, 5, 6, 1], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+virgl = 236
+panfrost = { afbc = "R16G16B16A16", afbc_min_arch = 10 }
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "AR4H"
+channels = ["BGRA"]
+vulkan = "VK_FORMAT_R16G16B16A16_SFLOAT"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 12, number_type = 7 }
+amd_gfx6 = { data_format = 12, num_format = 7, dst_sel = [6, 5, 4, 7], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "AB4H"
+vulkan = "VK_FORMAT_R16G16B16A16_SFLOAT"
+amd = true
+amd_displayable = true
+amd_implicit = true
+amd_gfx12 = { data_format = 12, number_type = 7 }
+amd_gfx6 = { data_format = 12, num_format = 7, dst_sel = [4, 5, 6, 7], alpha_is_on_msb = true }
+nvidia = true
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+virgl = 94
+panfrost = { afbc = "R16G16B16A16", afbc_min_arch = 10 }
+etnaviv = { render = ["Halti2"], sample = ["Halti2"] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "R  H"
+vulkan = "VK_FORMAT_R16_SFLOAT"
+amd = true
+amd_implicit = true
+amd_gfx12 = { data_format = 2, number_type = 7 }
+amd_gfx6 = { data_format = 2, num_format = 7, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+virgl = 91
+panfrost = { afbc = "R16", afbc_min_arch = 10 }
+etnaviv = { render = ["Halti2"], sample = ["Halti2"] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "GR H"
+vulkan = "VK_FORMAT_R16G16_SFLOAT"
+amd = true
+amd_implicit = true
+amd_gfx12 = { data_format = 5, number_type = 7 }
+amd_gfx6 = { data_format = 5, num_format = 7, dst_sel = [4, 5, 0, 1], alpha_is_on_msb = true }
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+lima = true
+virgl = 92
+panfrost = { afbc = "R16G16", afbc_min_arch = 10 }
+etnaviv = { render = ["Halti2"], sample = ["Halti2"] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "BGRH"
+vulkan = "VK_FORMAT_R16G16B16_SFLOAT"
+virgl = 93
+planes = [
+    { block_width = 1, block_height = 1, bits = 48 },
+]
+
+[[format]]
+fourcc = "R  F"
+vulkan = "VK_FORMAT_R32_SFLOAT"
+amd = true
+amd_implicit = true
+amd_gfx12 = { data_format = 4, number_type = 7 }
+amd_gfx6 = { data_format = 4, num_format = 7, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 28
+panfrost = {}
+etnaviv = { render = ["Halti2"], sample = ["Halti2"] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "GR F"
+vulkan = "VK_FORMAT_R32G32_SFLOAT"
+amd = true
+amd_implicit = true
+amd_gfx12 = { data_format = 11, number_type = 7 }
+amd_gfx6 = { data_format = 11, num_format = 7, dst_sel = [4, 5, 0, 1], alpha_is_on_msb = true }
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 29
+panfrost = {}
+etnaviv = { render = ["Halti2"], sample = ["Halti2"] }
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "BGRF"
+vulkan = "VK_FORMAT_R32G32B32_SFLOAT"
+amd = true
+amd_gfx6 = { data_format = 13, num_format = 7, dst_sel = [4, 5, 6, 1], alpha_is_on_msb = true }
+dumb = true
+virgl = 30
+panfrost = {}
+planes = [
+    { block_width = 1, block_height = 1, bits = 96 },
+]
+
+[[format]]
+fourcc = "AB8F"
+vulkan = "VK_FORMAT_R32G32B32A32_SFLOAT"
+amd = true
+amd_implicit = true
+amd_gfx12 = { data_format = 14, number_type = 7 }
+amd_gfx6 = { data_format = 14, num_format = 7, dst_sel = [4, 5, 6, 7], alpha_is_on_msb = true }
+nouveau = true
+dumb = true
+asahi = true
+v3d = true
+virgl = 31
+panfrost = {}
+etnaviv = { render = ["HalfFloat"], sample = ["HalfFloat"], emulated_128bit = true }
+planes = [
+    { block_width = 1, block_height = 1, bits = 128 },
+]
+
+[[format]]
+fourcc = "YUYV"
+vulkan = "VK_FORMAT_G8B8G8R8_422_UNORM"
+virgl = 15
+etnaviv = { render = [], sample = [] }
+planes = [
+    { block_width = 2, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "YVYU"
+vulkan = "VK_FORMAT_G8B8G8R8_422_UNORM"
+virgl = 327
+planes = [
+    { block_width = 2, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "UYVY"
+vulkan = "VK_FORMAT_B8G8R8G8_422_UNORM"
+virgl = 14
+planes = [
+    { block_width = 2, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "VYUY"
+vulkan = "VK_FORMAT_B8G8R8G8_422_UNORM"
+virgl = 426
+planes = [
+    { block_width = 2, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "AYUV"
+channels = ["VUYA"]
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [4, 6, 5, 7], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "AVUY"
+channels = ["YUVA"]
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [6, 4, 5, 7], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "XYUV"
+channels = ["VUYX"]
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [4, 6, 5, 1], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "XVUY"
+channels = ["YUVX"]
+vulkan = "VK_FORMAT_R8G8B8A8_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 10, number_type = 0 }
+amd_gfx6 = { data_format = 10, num_format = 0, dst_sel = [6, 4, 5, 1], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "VU24"
+channels = ["YUV"]
+vulkan = "VK_FORMAT_R8G8B8_UNORM"
+planes = [
+    { block_width = 1, block_height = 1, bits = 24 },
+]
+
+[[format]]
+fourcc = "VU30"
+planes = [
+    { block_width = 1, block_height = 1, bits = 30 },
+]
+
+[[format]]
+fourcc = "XY30"
+channels = ["VUYX"]
+vulkan = "VK_FORMAT_A2R10G10B10_UNORM_PACK32"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 9, number_type = 0 }
+amd_gfx6 = { data_format = 9, num_format = 0, dst_sel = [6, 4, 5, 1], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "Y210"
+vulkan = "VK_FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16"
+virgl = 437
+planes = [
+    { block_width = 2, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "Y212"
+vulkan = "VK_FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16"
+virgl = 438
+planes = [
+    { block_width = 2, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "Y216"
+vulkan = "VK_FORMAT_G16B16G16R16_422_UNORM"
+virgl = 439
+planes = [
+    { block_width = 2, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "Y410"
+channels = ["VYUA"]
+vulkan = "VK_FORMAT_A2R10G10B10_UNORM_PACK32"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 9, number_type = 0 }
+amd_gfx6 = { data_format = 9, num_format = 0, dst_sel = [6, 5, 4, 7], alpha_is_on_msb = true }
+nouveau = true
+virgl = 440
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "Y412"
+channels = ["UYVA"]
+vulkan = "VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16"
+virgl = 441
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "Y416"
+channels = ["UYVA"]
+vulkan = "VK_FORMAT_R16G16B16A16_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 12, number_type = 0 }
+amd_gfx6 = { data_format = 12, num_format = 0, dst_sel = [6, 5, 4, 7], alpha_is_on_msb = true }
+nouveau = true
+virgl = 442
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "XV30"
+channels = ["VYUX"]
+vulkan = "VK_FORMAT_A2R10G10B10_UNORM_PACK32"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 9, number_type = 0 }
+amd_gfx6 = { data_format = 9, num_format = 0, dst_sel = [6, 5, 4, 1], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "XV36"
+channels = ["UYVX"]
+vulkan = "VK_FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16"
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "XV48"
+channels = ["UYVX"]
+vulkan = "VK_FORMAT_R16G16B16A16_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 12, number_type = 0 }
+amd_gfx6 = { data_format = 12, num_format = 0, dst_sel = [6, 5, 4, 1], alpha_is_on_msb = true }
+nouveau = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "Y0L0"
+planes = [
+    { block_width = 2, block_height = 2, bits = 64 },
+]
+
+[[format]]
+fourcc = "X0L0"
+planes = [
+    { block_width = 2, block_height = 2, bits = 64 },
+]
+
+[[format]]
+fourcc = "Y0L2"
+planes = [
+    { block_width = 2, block_height = 2, bits = 64 },
+]
+
+[[format]]
+fourcc = "X0L2"
+planes = [
+    { block_width = 2, block_height = 2, bits = 64 },
+]
+
+[[format]]
+fourcc = "YU08"
+planes = [
+    { block_width = 1, block_height = 1, bits = 12 },
+]
+
+[[format]]
+fourcc = "YU10"
+planes = [
+    { block_width = 1, block_height = 1, bits = 15 },
+]
+
+[[format]]
+fourcc = "GREY"
+channels = ["Y"]
+vulkan = "VK_FORMAT_R8_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx12 = { data_format = 1, number_type = 0 }
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [0, 4, 0, 1], alpha_is_on_msb = false }
+nouveau = true
+virgl = 322
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "YPA4"
+planes = [
+    { block_width = 3, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "XRA8"
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "XBA8"
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "RXA8"
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "BXA8"
+planes = [
+    { block_width = 1, block_height = 1, bits = 32 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "R8A8"
+planes = [
+    { block_width = 1, block_height = 1, bits = 24 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "B8A8"
+planes = [
+    { block_width = 1, block_height = 1, bits = 24 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "R5A8"
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "B5A8"
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "NV12"
+channels = ["Y", "UV"]
+vulkan = "VK_FORMAT_G8_B8R8_2PLANE_420_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+virgl = 166
+# TODO: etnaviv. Every plane is a separate buffer.
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 2, bits = 16 },
+]
+
+[[format]]
+fourcc = "NV21"
+channels = ["Y", "VU"]
+vulkan = "VK_FORMAT_G8_B8R8_2PLANE_420_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+virgl = 167
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 2, bits = 16 },
+]
+
+[[format]]
+fourcc = "NV16"
+channels = ["Y", "UV"]
+vulkan = "VK_FORMAT_G8_B8R8_2PLANE_422_UNORM"
+amd = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+virgl = 325
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "NV61"
+channels = ["Y", "VU"]
+vulkan = "VK_FORMAT_G8_B8R8_2PLANE_422_UNORM"
+amd = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "NV24"
+channels = ["Y", "UV"]
+vulkan = "VK_FORMAT_G8_B8R8_2PLANE_444_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "NV42"
+channels = ["Y", "VU"]
+vulkan = "VK_FORMAT_G8_B8R8_2PLANE_444_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "NV15"
+planes = [
+    { block_width = 4, block_height = 1, bits = 40 },
+    { block_width = 4, block_height = 2, bits = 40 },
+]
+
+[[format]]
+fourcc = "NV20"
+planes = [
+    { block_width = 4, block_height = 1, bits = 40 },
+    { block_width = 4, block_height = 1, bits = 40 },
+]
+
+[[format]]
+fourcc = "NV30"
+planes = [
+    { block_width = 4, block_height = 1, bits = 40 },
+    { block_width = 2, block_height = 1, bits = 40 },
+]
+
+[[format]]
+fourcc = "P210"
+channels = ["Y", "UV"]
+vulkan = "VK_FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16"
+amd = true
+amd_gfx6 = { data_format = 2, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+virgl = 481
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "P010"
+channels = ["Y", "UV"]
+vulkan = "VK_FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16"
+amd = true
+amd_gfx6 = { data_format = 2, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+virgl = 314
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 2, bits = 32 },
+]
+
+[[format]]
+fourcc = "P012"
+channels = ["Y", "UV"]
+vulkan = "VK_FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16"
+amd = true
+amd_gfx6 = { data_format = 2, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+virgl = 315
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 2, bits = 32 },
+]
+
+[[format]]
+fourcc = "P016"
+channels = ["Y", "UV"]
+vulkan = "VK_FORMAT_G16_B16R16_2PLANE_420_UNORM"
+amd = true
+amd_gfx6 = { data_format = 2, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+virgl = 316
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 2, bits = 32 },
+]
+
+[[format]]
+fourcc = "P030"
+virgl = 402
+planes = [
+    { block_width = 3, block_height = 1, bits = 32 },
+    { block_width = 6, block_height = 2, bits = 64 },
+]
+
+[[format]]
+fourcc = "P230"
+planes = [
+    { block_width = 3, block_height = 1, bits = 32 },
+    { block_width = 6, block_height = 1, bits = 64 },
+]
+
+[[format]]
+fourcc = "Q410"
+channels = ["Y", "U", "V"]
+vulkan = "VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16"
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "Q401"
+channels = ["Y", "V", "U"]
+vulkan = "VK_FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16"
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "T430"
+planes = [
+    { block_width = 3, block_height = 1, bits = 32 },
+    { block_width = 3, block_height = 1, bits = 32 },
+    { block_width = 3, block_height = 1, bits = 32 },
+]
+
+[[format]]
+fourcc = "S010"
+virgl = 475
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 2, bits = 16 },
+    { block_width = 2, block_height = 2, bits = 16 },
+]
+
+[[format]]
+fourcc = "S210"
+virgl = 476
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "S410"
+virgl = 477
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "S012"
+virgl = 478
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 2, bits = 16 },
+    { block_width = 2, block_height = 2, bits = 16 },
+]
+
+[[format]]
+fourcc = "S212"
+virgl = 479
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "S412"
+virgl = 480
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "S016"
+channels = ["Y", "U", "V"]
+vulkan = "VK_FORMAT_G16_B16_R16_3PLANE_420_UNORM"
+amd = true
+amd_gfx6 = { data_format = 2, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+virgl = 433
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 2, bits = 16 },
+    { block_width = 2, block_height = 2, bits = 16 },
+]
+
+[[format]]
+fourcc = "S216"
+channels = ["Y", "U", "V"]
+vulkan = "VK_FORMAT_G16_B16_R16_3PLANE_422_UNORM"
+amd = true
+amd_gfx6 = { data_format = 2, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+virgl = 434
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 1, bits = 16 },
+    { block_width = 2, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "S416"
+channels = ["Y", "U", "V"]
+vulkan = "VK_FORMAT_G16_B16_R16_3PLANE_444_UNORM"
+amd = true
+amd_gfx6 = { data_format = 2, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+virgl = 436
+planes = [
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+    { block_width = 1, block_height = 1, bits = 16 },
+]
+
+[[format]]
+fourcc = "YUV9"
+nvidia = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 4, block_height = 4, bits = 8 },
+    { block_width = 4, block_height = 4, bits = 8 },
+]
+
+[[format]]
+fourcc = "YVU9"
+nvidia = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 4, block_height = 4, bits = 8 },
+    { block_width = 4, block_height = 4, bits = 8 },
+]
+
+[[format]]
+fourcc = "YU11"
+nvidia = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 4, block_height = 1, bits = 8 },
+    { block_width = 4, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "YV11"
+nvidia = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 4, block_height = 1, bits = 8 },
+    { block_width = 4, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "YU12"
+channels = ["Y", "U", "V"]
+vulkan = "VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+virgl = 165
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 2, bits = 8 },
+    { block_width = 2, block_height = 2, bits = 8 },
+]
+
+[[format]]
+fourcc = "YV12"
+channels = ["Y", "V", "U"]
+vulkan = "VK_FORMAT_G8_B8_R8_3PLANE_420_UNORM"
+amd = true
+amd_displayable = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+virgl = 163
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 2, bits = 8 },
+    { block_width = 2, block_height = 2, bits = 8 },
+]
+
+[[format]]
+fourcc = "YU16"
+channels = ["Y", "U", "V"]
+vulkan = "VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM"
+amd = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+virgl = 324
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "YV16"
+channels = ["Y", "V", "U"]
+vulkan = "VK_FORMAT_G8_B8_R8_3PLANE_422_UNORM"
+amd = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+virgl = 164
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 1, bits = 8 },
+    { block_width = 2, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "YU24"
+channels = ["Y", "U", "V"]
+vulkan = "VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM"
+amd = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+virgl = 323
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]
+
+[[format]]
+fourcc = "YV24"
+channels = ["Y", "V", "U"]
+vulkan = "VK_FORMAT_G8_B8_R8_3PLANE_444_UNORM"
+amd = true
+amd_gfx6 = { data_format = 1, num_format = 0, dst_sel = [4, 0, 0, 1], alpha_is_on_msb = false }
+nvidia = true
+planes = [
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 1, block_height = 1, bits = 8 },
+    { block_width = 1, block_height = 1, bits = 8 },
+]

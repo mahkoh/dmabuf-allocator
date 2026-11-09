@@ -1,0 +1,18 @@
+[package]
+name = "dmabuf-allocator"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.97"
+description = "Allocate dma-bufs from kernel drivers and udmabuf"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/mahkoh/dmabuf-allocator"
+keywords = ["dmabuf", "dma-buf", "drm", "gbm", "linux"]
+categories = ["graphics", "os::linux-apis", "no-std"]
+
+[dependencies]
+dmabuf-allocator-impl.workspace = true
+thiserror.workspace = true
+
+[features]
+default = ["std"]
+std = []

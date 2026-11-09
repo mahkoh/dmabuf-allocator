@@ -1,0 +1,47 @@
+[workspace]
+resolver = "3"
+members = [
+    "codegen",
+    "dmabuf-allocator",
+    "dmabuf-allocator-impl",
+    "tests/allocator-trace",
+    "tests/fake-device",
+    "tests/fake-kernel",
+    "tests/fake-supervisor",
+    "tests/generated-tests",
+    "tests/manual-tests",
+    "tests/mesa-testgen",
+    "tests/nvidia-testgen",
+    "tests/vulkan-testgen",
+    "tests/wayland-test",
+]
+
+[workspace.dependencies]
+codegen = { path = "codegen" }
+dmabuf-allocator = { path = "dmabuf-allocator" }
+dmabuf-allocator-impl = { version = "=1.0.0", path = "dmabuf-allocator-impl" }
+
+allocator-trace = { path = "tests/allocator-trace" }
+fake-device = { path = "tests/fake-device" }
+fake-kernel = { path = "tests/fake-kernel" }
+fake-supervisor = { path = "tests/fake-supervisor" }
+vulkan-testgen = { path = "tests/vulkan-testgen" }
+
+arrayvec = { version = "0.7.8", default-features = false }
+ash = { package = "jay-ash", version = "0.25.0" }
+bytemuck = { version = "1.25.2", features = ["derive", "min_const_generics"] }
+clang-ast = "0.1.36"
+clap = { version = "4.6.7", features = ["derive"] }
+error_reporter = "1.0.0"
+libc = { version = "0.2.191", default-features = false }
+parking_lot = "0.13.0"
+rayon = "1.12.0"
+run-on-drop = "1.0.0"
+serde = "1.0.229"
+serde_json = "1.0.154"
+shlex = "2.0.1"
+thiserror = { version = "2.0.21", default-features = false }
+toml = "1.2.1"
+wl-client = "0.2.1"
+wl-client-builder = "0.2.2"
+zstd = "0.14.3"
